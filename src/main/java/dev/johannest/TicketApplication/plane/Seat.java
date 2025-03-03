@@ -1,11 +1,32 @@
 package dev.johannest.TicketApplication.plane;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
-public record Seat (
-        int row,
-        char column,
-        HashMap<String, String> modifiers // The use of a HashMap for modifiers allows for greater variety in modifiers
-){
-    
+public class Seat{
+    int row;
+    char column;
+    SeatClass seatClass;
+    ReservationState reservationState;
+    SeatType type;
+    ArrayList<String> modifiers;
+
+
+    enum ReservationState{
+        FREE,
+        SELECTED,
+        TAKEN
+    }
+
+    enum SeatClass{
+        ECONOMY,
+        BUSINESS,
+        FIRST
+    }
+
+    enum SeatType{
+        WINDOW,
+        MIDDLE,
+        AISLE
+    }
 }
