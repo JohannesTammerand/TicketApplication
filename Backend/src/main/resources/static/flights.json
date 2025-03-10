@@ -1,0 +1,10 @@
+{
+  "flights" : [
+    {
+      "departure" : "Tallinn",
+      "arrival" : "Berlin",
+      "date" : "2025-03-16T14:30:00",
+      "plane_type" : 1
+    }
+  ]
+}

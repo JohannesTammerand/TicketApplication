@@ -1,0 +1,25 @@
+{
+  "planes" : [
+    [{
+      "id" : 1,
+      "rows" : 46,
+      "clases" : [
+        {
+          "class" : "first",
+          "rows" : 6,
+          "columns" : 4,
+        },
+        {
+          "class" : "business",
+          "rows" : 10,
+          "columns" : 6,
+        },
+        {
+          "class" : "economy",
+          "rows" : 30,
+          "column" : 9,
+        }
+      ]
+    }]
+  ]
+}
